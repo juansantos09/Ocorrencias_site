@@ -1,60 +1,30 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ficha de Ocorrência - Colégio</title>
-  <link rel="stylesheet" href="../css/ocorrencia.css">
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/ocorrencias.css">
 </head>
 <body>
-  <div class="main-container">
-    <h1>📋 Ficha de Ocorrência Escolar</h1>
 
-    <div class="content">
-      <!-- Formulário -->
-      <div class="form-section">
-        <h2>Preencher Ocorrência</h2>
-        
-        <label>Aluno:</label>
-        <input type="text" id="student" placeholder="Nome completo do aluno" value="João Silva">
+<div class="container">
 
-        <label>Tipo de Ocorrência:</label>
-        <select id="type">
-          <option value="negative">Negativa</option>
-          <option value="positive">Positiva</option>
-        </select>
+    <div class="left">
+        <div class="linha_branca"></div>
+        <div class="linha_verde"></div>
 
-        <label>Data:</label>
-        <input type="date" id="date" value="2026-04-10">
+        <img src="../imagens/logo.png.PNG" class="logo_top">
 
-        <label>Título da Ocorrência:</label>
-        <input type="text" id="title" placeholder="Ex: Briga no recreio" value="Briga no recreio">
+        <h1>ESCOLHA SEU TIPO<br>DE OCORRÊNCIA</h1>
 
-        <label>Descrição:</label>
-        <textarea id="description" rows="5">O aluno se envolveu em uma discussão e agrediu verbalmente outro colega durante o intervalo.</textarea>
-
-        <button onclick="generateCard()" class="generate-btn">Gerar Ficha</button>
-      </div>
-
-      <!-- Pré-visualização -->
-      <div class="preview-section">
-        <h2>Pré-visualização</h2>
-        <div id="occurrence-card" class="occurrence-card negative">
-          <div class="header">
-            <span id="type-badge" class="badge negative">NEGATIVA</span>
-            <span id="card-date" class="date">10/04/2026</span>
-          </div>
-          <h2 id="card-student">João Silva</h2>
-          
-          <div class="description">
-            <strong id="card-title">Briga no recreio</strong>
-            <p id="card-desc">O aluno se envolveu em uma discussão e agrediu verbalmente outro colega durante o intervalo.</p>
-          </div>
+        <div class="buttons">
+            <button class="positivo">POSITIVA</button>
+            <button class="negativo">NEGATIVA</button>
         </div>
-      </div>
+        
+        <div class="right">
+            <img src="../imagens/logo.png.PNG" class="logo_right">
+        </div>
+        
+        
     </div>
-  </div>
-
-  <script src="script.js"></script>
-</body>
-</html>
