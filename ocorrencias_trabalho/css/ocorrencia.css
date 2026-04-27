@@ -28,9 +28,37 @@ body {
 }
 
 .right {
+   display: flex;
+   justify-content: right;
+   margin-top: 7%;
+}
 
+.left {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left h1 {
+    color: white;
 }
 
 .logo {
-    width: 60%;
+    width: 35%;
+    height: 55%;
+}
+
+.logo_parana {
+    width: 2%;
+    height: 2%;
+}
+
+button {
+    width: 400px;
+    height: 30px;
+    cursor: pointer;
+    background-color: #658338;
+    color: white;
+    border-radius: 30px;
+    border: none;
 }
