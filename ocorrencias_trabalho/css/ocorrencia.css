@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #283643;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.left {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.linha_branca {
+    height: 100%;
+    width: 70px;
+    margin-left: 0%;
+    position: fixed;
+    left: 2%;
+    background-color: white;
+}
+
+.linha_verde {
+    height: 100%;
+    width: 70px;
+    margin-left: 5%;
+    position: fixed;
+    left: 5%;
+    background-color:#658338;
+}
+
+.logo_top {
+    width: 220px;
+    margin-bottom: 30px;
+    margin-top: 50%;
+    clip-path: inset(0 50% 0 0);
+}
+
+.logo_right {
+    width: 1000px;
+    clip-path: inset(0 0 0 50%);
+}
