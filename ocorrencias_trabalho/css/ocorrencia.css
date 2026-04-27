@@ -9,19 +9,6 @@ body {
     background-color: #283643;
 }
 
-.container {
-    display: flex;
-    height: 100vh;
-}
-
-.left {
-    width: 40%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-}
-
 .linha_branca {
     height: 100%;
     width: 70px;
@@ -40,14 +27,10 @@ body {
     background-color:#658338;
 }
 
-.logo_top {
-    width: 220px;
-    margin-bottom: 30px;
-    margin-top: 50%;
-    clip-path: inset(0 50% 0 0);
+.right {
+
 }
 
-.logo_right {
-    width: 1000px;
-    clip-path: inset(0 0 0 50%);
+.logo {
+    width: 60%;
 }
