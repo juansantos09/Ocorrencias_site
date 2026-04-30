@@ -74,10 +74,6 @@ button {
     font-size: 20px;
 }
 
-button :hover {
-
-}
-
 .margin {
     display: flex;
     flex-direction: column;
