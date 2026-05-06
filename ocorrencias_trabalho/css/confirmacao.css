@@ -26,3 +26,54 @@ body {
     left: 5%;
     background-color:#658338;
 }
+
+.card {
+    background-color: #cccccc;
+    width: 600px;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.card h2 {
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+.card p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+    flex-direction: column;
+}
+
+button {
+    width: 50%;
+    height: 50px;
+    margin-top: 20px;
+    background-color: #2f3e4e;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+span {
+    color: green;
+    font-weight: bold;
+}
